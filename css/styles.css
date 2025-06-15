@@ -40,6 +40,16 @@ h3 {
   font-weight: var(--font-heavy);
 }
 
+form {
+  max-width: 700px;
+}
+
+label, textarea, input {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+}
+
 a {
   color: var(--primary-color);
 }
@@ -77,6 +87,22 @@ button:focus {
 .button__secondary {
   background-color: var(--secondary-color);
   color: var(--dark-grey);
+}
+
+.contact-form__button {
+  margin-top: 25px;
+  padding: 10px 3rem;
+  font-size: 18px;
+  border-radius: 3px;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  transition: opacity .2s;
+}
+
+.contact-form__button:hover {
+  opacity: .8;
 }
 
 .navigation-list__item--active {
