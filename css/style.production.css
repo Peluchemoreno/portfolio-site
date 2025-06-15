@@ -36,6 +36,16 @@ h3 {
   font-weight: 700;
 }
 
+form {
+  max-width: 700px;
+}
+
+label, textarea, input {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+}
+
 a {
   color: #357b70;
 }
@@ -73,6 +83,24 @@ button:focus {
 .button__secondary {
   background-color: #e0b354;
   color: #2b2b2b;
+}
+
+.contact-form__button {
+  margin-top: 25px;
+  padding: 10px 3rem;
+  font-size: 18px;
+  border-radius: 3px;
+  border: none;
+  background-color: #357b70;
+  color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition: opacity .2s;
+  -o-transition: opacity .2s;
+  transition: opacity .2s;
+}
+
+.contact-form__button:hover {
+  opacity: .8;
 }
 
 .navigation-list__item--active {
