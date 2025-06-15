@@ -1,0 +1,4 @@
+Linters used
+
+HTML - HTMLHint
+CSS - Builtin VSCode CSS linter

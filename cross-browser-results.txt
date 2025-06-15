@@ -1,0 +1,13 @@
+All tested on BrowserStack
+
+Safari 18.4 - Latest
+- No issues found
+
+Firefox 139 - Latest
+- No issues found
+
+Google Chrome 137 - Latest
+- No issues found 
+
+Microsoft Edge 137 - Latest
+- No issues found
